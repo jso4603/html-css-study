@@ -4,6 +4,7 @@
 
 /* Components */
 @import 'components/status-bar.css';
+@import 'components/badge.css';
 @import 'components/friends-nav.css';
 @import 'components/screen-header.css';
 @import 'components/user-component.css';
@@ -11,6 +12,7 @@
 /* Screens */
 @import 'screens/login.css';
 @import 'screens/friends.css';
+@import 'screens/find.css';
 
 body {
     font-family: 'Open Sans', sans-serif;
