@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>KaKaoClone_FriendsScreen</title>
+        <title>KaKaoClone_MoreScreen</title>
         <link rel="stylesheet" href="css/styles.css" />
     </head>
     <body>
@@ -26,19 +26,16 @@
         </div>
 
         <header class="screen-header">
-            <h1 class="screen-header__title">Friends</h1>
+            <h1 class="screen-header__title">More</h1>
             <div class="screen-header__icons">
                 <span><i class="fas fa-search fa-lg"></i></span>
                 <span><i class="fas fa-music fa-lg"></i></span>
-                <span
-                    ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
-                ></span>
+                <span class="screen-header__icon">
+                    <a href="settings.html"><i class="fas fa-cog fa-lg"></i></a>
+                    <span class="screen-header__notification-cog badge--small"></span>
+                </span>   
             </div>
         </header>
-
-        <a id="friends-display-link" href="#">
-            <i class="fas fa-info-circle"></i> Friends' Names Display <i class="fas fa-chevron-right fa-xs"></i>
-        </a>
 
         <main class="main-screen">
             <div class="user-component">
@@ -50,47 +47,78 @@
                     />
                     <div class="user-component__text">
                         <h4 class="user-component__title">JASN OK</h4>
-                        <!-- <h6 class="user-component__subtitle">blahblahblah</h6> -->
+                        <h6 class="user-component__subtitle">+82 10-4737-4603 <i class="fas fa-exclamation-circle more-subtitle__exclam-mark"></i></h6>
                     </div>
                 </div>
-                <div class="user-component__column"></div>
+                <div class="user-component__column">
+                    <i class="far fa-comments fa-2x more__comment-bubble"></i>
+                </div>
             </div>
 
-            <div class="friends-screen__channel">
-                <div class="friends-screen__channel-header">
-                    <span>Channel</span>
-                    <i class="fas fa-chevron-up fa-xs"></i>
-                </div>
-                <div class="user-component">
-                    <div class="user-component__column">
-                        <img
-                            class="user-component__img user-component__img--sm"
-                            src="https://w.namu.la/s/dff9a691d8de1e8559a2663dccd161173c75c2cb31bc9aabcdada6e2f4ebaa67f13dda416632faddd7d6e1df65714f8b9be8e25cb3b71c0d6ecca622fb3381e5240207b0c8056f0b80fd26db57afa511a3bb82737fd77ca6157530eb0ee0ebfd"
-                            alt="profile_img"
-                        />
-                        <div class="user-component__text">
-                            <h4 class="user-component__title--not-bold">Channel</h4>
-                        </div>
+            <div class="icon-rows more-icon__rows">
+                <div class="icon-row more-icon__row">
+                    <div class="icon-row__icon more-icon">
+                        <i class="far fa-calendar-alt"></i>
+                        <span>Calendar</span>
                     </div>
-                    <div class="user-component__column">
-                        <div>
-                            <span>2</span>
-                            <i class="fas fa-chevron-right fa-xs"></i>
-                        </div>
+                    <div class="icon-row__icon more-icon">
+                        <i class="fas fa-archive"></i>
+                        <span>Talk Drive</span>
+                    </div>
+                    <div class="icon-row__icon more-icon">
+                        <i class="far fa-smile-beam"></i>
+                        <span>Emoticons</span>
+                    </div>
+                    <div class="icon-row__icon more-icon">
+                        <i class="fas fa-palette"></i>
+                        <span>Themes</span>
+                    </div>
+                </div>
+    
+                <div class="icon-row more-icon__row">
+                    <div class="icon-row__icon">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        <span>Account</span>
+                    </div>
+                    <div class="icon-row__icon">
+                        <i class="fas fa-sms"></i>
+                        <span>Openchat</span>
                     </div>
                 </div>
             </div>
+
+            <div class="more-suggestions">
+                <h1 class="more-suggestions__title">Suggestions</h1>
+                <div class="more-suggestions__icon-row">
+                    <div class="more-suggestions__icon">
+                        <img
+                            class ="more-suggestions__icon-img"
+                            src="https://blog.kakaocdn.net/dn/CNqfY/btqzjsct2YY/PfKa0QqNmiKdUticLxuAaK/img.png"
+                            alt="profile_img"
+                        />
+                        <span class="more-suggestions__icon-title">Kakao Story</span>
+                    </div>
+                    <div class="more-suggestions__icon">
+                        <img
+                            class="more-suggestions__icon-img"
+                            src="https://yt3.ggpht.com/ytc/AAUvwngyMdF_M10XTfCYBW4PEPDgTUbIt6gJ1TmvIopF=s900-c-k-c0x00ffffff-no-rj"
+                            alt="profile_img"
+                        />
+                        <span class="more-suggestions__icon-title">Kakao Friends</span>
+                    </div>
+                </div>
+            </div>
+
         </main>
 
         <nav class="bottom-nav">
             <ul class="bottom-nav__list">
                 <li class="bottom-nav__btn">
-                    <a class="bottom-nav__link" href="friends.html"><i class="fas fa-user fa-2x"></i></a>
+                    <a class="bottom-nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></i></a>
                 </li>
                 <li class="bottom-nav__btn">
                     <a class="bottom-nav__link" href="chats.html">
                         <i class="far fa-comment fa-2x"></i>
-                        <span class="bottom-nav__notification-msg badge">1</span>
                     </a>
                 </li>
                 <li class="bottom-nav__btn">

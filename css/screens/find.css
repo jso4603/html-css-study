@@ -2,22 +2,6 @@
     position: absolute;
 }
 
-.find-icons {
-    display: flex;
-    justify-content: space-between;
-}
-
-.find-icons i {
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-.find-icons__find-icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .recommended-friends {
     border-top: var(--main_border);
     border-bottom: var(--main_border);

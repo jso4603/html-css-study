@@ -1,4 +1,4 @@
-.friends-nav {
+.bottom-nav {
     background-color: #f9f9fa;
     padding: 20px 50px;
     position: fixed;
@@ -8,22 +8,22 @@
     border-top: 1px solid #dddddd;
 }
 
-.friends-nav__list {
+.bottom-nav__list {
     display: flex;
     justify-content: space-between;
 }
 
-.friends-nav__link {
+.bottom-nav__link {
     position: relative;
 }
 
-.friends-nav__notification-msg {
+.bottom-nav__notification-msg {
     position: absolute;
     bottom: 15px;
     left: 15px;
 }
 
-.friends-nav__notification-ellipsis {
+.bottom-nav__notification-ellipsis {
     position: absolute;
     left: 35px;
     bottom: 30px;

@@ -1,0 +1,46 @@
+.more-subtitle__exclam-mark {
+    color: red;
+}
+
+.more__comment-bubble {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.more-icon__rows {
+    opacity: 0.9;
+}
+
+.more-icon__row {
+    margin-bottom: 40px;
+}
+
+.more-suggestions__title {
+    font-size: 17px;
+    font-weight: 600;
+    opacity: 0.9;
+    margin: 30px 0px;
+}
+
+.more-suggestions__icon-row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.more-suggestions__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.more-suggestions__icon-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+    margin-bottom: 10px;
+}
+
+.more-suggestions__icon-title {
+    font-size: 13px;
+    opacity: 0.7;
+}

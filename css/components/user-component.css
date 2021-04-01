@@ -3,7 +3,7 @@
 }
 
 .user-component__column {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .user-component,
@@ -22,7 +22,7 @@
 .user-component__img {
     width: 50px;
     height: 50px;
-    border-radius: 30px;
+    border-radius: 40%;
     margin-right: 20px;
 }
 
@@ -34,11 +34,6 @@
 .user-component__img--sm {
     width: 40px;
     height: 40px;
-}
-
-.user-component__img--xs {
-    width: 20px;
-    height: 20px;
 }
 
 .user-component__title {
