@@ -36,6 +36,11 @@
     height: 40px;
 }
 
+.user-component__img--xs {
+    width: 20px;
+    height: 20px;
+}
+
 .user-component__title {
     font-size: 15px;
     font-weight: 600;
