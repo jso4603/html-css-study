@@ -6,7 +6,7 @@
         <title>KaKaoClone_ChatScreen</title>
         <link rel="stylesheet" href="css/styles.css" />
     </head>
-    <body id="chat-body">
+    <body id="chat-screen">
         <div class="status-bar">
             <div class="status-bar__column">
                 <span>No Service</span>
@@ -27,7 +27,7 @@
 
         <header class="alt-header">
             <div class="alt-header__column">
-                <a href="more.html">
+                <a href="chats.html">
                     <i class="fas fa-chevron-left fa-lg"></i>
                 </a>
             </div>
@@ -35,12 +35,29 @@
                 <span class="alt-header__tilte">Chris Brown</span>
             </div>
             <div class="alt-header__column">
-                <i class="fas fa-search fa-lg"></i>
-                <i class="fas fa-bars fa-lg"></i>
+                <span><i class="fas fa-search fa-lg"></i></span>
+                <span class="alt-header__bars"><i class="fas fa-bars fa-lg"></i></span>
             </div>
         </header>
 
-        <main class="main-screen"></main>
+        <main class="main-screen main-chat">
+            <div class="chat__timestamp">Friday, April 2, 2021</div>
+
+            <div class="message-row">
+                <img
+                    class="user-component__img user-component"
+                    src="https://i1.sndcdn.com/avatars-000241251328-yrac02-t500x500.jpg"
+                    alt="profile_img"
+                />
+                <div class="message-row__content">
+                    <span class="message__author">Chris Brown</span>
+                    <div class="message__info">
+                        <span class="message__bubble">Yo Dude! i like your Song bro!</span>
+                        <span class="message__time">18:32</span>
+                    </div>
+                </div>
+            </div>
+        </main>
 
         <script src="https://kit.fontawesome.com/a3ad57350a.js" crossorigin="anonymous"></script>
     </body>

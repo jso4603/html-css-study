@@ -2,9 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    padding: 0px var(--horizontal_space);
-    opacity: 0.9;
+    padding: 30px var(--horizontal_space);
 }
 
 .alt-header__tilte {
@@ -12,10 +10,24 @@
     font-weight: 600;
 }
 
+.alt-header__column {
+    width: 33%;
+}
+
 .alt-header__column:first-child {
     margin-right: auto;
 }
 
+.alt-header__column:nth-child(2) {
+    text-align: center;
+}
+
 .alt-header__column:last-child {
     margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.alt-header__column .alt-header__bars {
+    margin-left: 20px;
 }
