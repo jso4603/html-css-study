@@ -1,0 +1,87 @@
+@import url('reset.css');
+
+body {
+    background-color: #6bbcbe;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes rotateCircle {
+    0% {
+        transform: rotateZ(-180deg);
+    }
+    50% {
+        transform: none;
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.rotate-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    margin-bottom: 50px;
+    animation: rotateCircle 1s linear infinite;
+}
+
+.rotate-div__dot {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.sound-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+}
+
+@keyframes changeRectangle {
+    0% {
+        height: 40px;
+    }
+    10% {
+        height: 70px;
+    }
+    40% {
+        height: 40px;
+    }
+}
+
+.sound-div__rectangle {
+    width: 10px;
+    height: 40px;
+    background-color: white;
+    animation: changeRectangle 1s ease-in-out infinite;
+}
+
+.sound-div__rectangle:first-child {
+    animation-delay: 0.3s;
+}
+
+.sound-div__rectangle:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.sound-div__rectangle:nth-child(3) {
+    animation-delay: 0.5s;
+}
+
+.sound-div__rectangle:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.sound-div__rectangle:last-child {
+    animation-delay: 0.7s;
+}
