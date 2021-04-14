@@ -1,0 +1,40 @@
+.song-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.song-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 250px;
+}
+
+.song-title,
+.song-title--sm,
+.song-player,
+.song-player--sm {
+    width: 100%;
+}
+
+.song-title {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.song-title--sm {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.song-player {
+    font-size: 20px;
+}
+
+.song-player--sm {
+    font-size: 15px;
+    opacity: 0.5;
+}

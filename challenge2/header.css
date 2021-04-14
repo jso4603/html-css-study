@@ -1,0 +1,22 @@
+.playlist-header {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 50px 30px;
+}
+
+.playlist-header__left,
+.playlist-header__center,
+.playlist-header__right {
+    width: 33%;
+}
+
+.playlist-header__center {
+    display: flex;
+    justify-content: center;
+}
+
+.playlist-header__right {
+    display: flex;
+    justify-content: flex-end;
+}

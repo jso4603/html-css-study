@@ -1,0 +1,26 @@
+.playlist-main {
+    margin: 0px 30px 30px;
+}
+
+.main-now .main-now__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#svg-img {
+    width: 70px;
+    height: 70px;
+    color: white;
+}
+
+.main-btn {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.main-list .song-section {
+    margin-bottom: -30px;
+}
