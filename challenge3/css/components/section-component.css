@@ -1,0 +1,117 @@
+.section-component {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+    opacity: var(--title_opacity);
+}
+
+.section-contents {
+    display: flex;
+}
+
+.section-contents__top {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-contents__img {
+    height: 180px;
+    width: 120px;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.section-contents__img--sm {
+    height: 120px;
+    width: 80px;
+}
+
+.section-contents__img--square {
+    height: 120px;
+    width: 150px;
+}
+
+.section-contents__info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-contents__info-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    opacity: var(--midtitle_opacity);
+}
+
+.section-contents__info-subtitle {
+    font-size: 13px;
+    opacity: var(--subtitle_opacity);
+    margin-bottom: 10px;
+}
+
+.section-contents__info-stars {
+    font-size: 12px;
+    color: var(--orange);
+}
+
+.section-contents__info-moive {
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    margin: 20px 0px;
+}
+
+.section-contents__info button {
+    font-size: 15px;
+    transition: background-color 1s ease-in-out;
+}
+
+.section-contents__info-moive button {
+    margin-left: 10px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.7);
+    background-color: var(--yellow);
+}
+
+.section-contents__info-moive button:hover {
+    background-color: black;
+    color: white;
+}
+
+.section-contents__info-buy {
+    display: flex;
+}
+
+.info-buy__cart-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--yellow);
+    margin-right: 90px;
+}
+
+.info-buy__cart-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.info-buy__buy-btn {
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.info-buy__buy-btn:hover {
+    background-color: var(--yellow);
+    color: black;
+}

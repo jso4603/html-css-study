@@ -1,0 +1,41 @@
+@import url('variables.css');
+
+/* Components */
+@import url('components/section-component.css');
+@import url('components/no-mobile.css');
+
+/* Screens */
+@import url('screens/library-header.css');
+@import url('screens/library-main.css');
+
+@font-face {
+    font-family: 'Cafe24Ohsquare';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cafe24Ohsquare';
+    background-color: var(--light-gray);
+    height: 100vh;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+a {
+    color: inherit;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    border: none;
+    outline: none;
+}
