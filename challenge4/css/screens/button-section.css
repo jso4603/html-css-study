@@ -1,0 +1,64 @@
+.phone-main__button-section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+@keyframes popup {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    60% {
+        transform: scale(1);
+    }
+    70% {
+        transform: scale(1.1);
+    }
+    80% {
+        transform: scale(1);
+    }
+    90% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.phone-main__button {
+    color: rgba(255, 255, 255, 0.911);
+    background-color: rgba(0, 0, 0, 0.836);
+    border: none;
+    outline: none;
+    font-size: 12px;
+    border-radius: 30px;
+    padding: 12px 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: 0px 5px 30px gray;
+}
+
+.phone-main__button:hover {
+    animation: popup 1s linear;
+}
+
+.phone-main__button:last-child {
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+}
+
+.phone-main__button:last-child .phone-main__btn-count {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.phone-main__button:first-child:hover > span:first-child,
+.phone-main__button:last-child:hover > span:first-child {
+    transition: color 0.7s linear;
+    color: tomato;
+}

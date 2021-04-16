@@ -1,0 +1,21 @@
+.phone-screens {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-screen {
+    background-color: white;
+    width: 350px;
+    height: 700px;
+    margin: 50px;
+    border: 2px rgba(0, 0, 0, 0.1) solid;
+    border-radius: 50px;
+    transition: box-shadow 0.7s linear;
+}
+
+.phone-screen:hover {
+    box-shadow: 15px 15px 20px gray;
+}
