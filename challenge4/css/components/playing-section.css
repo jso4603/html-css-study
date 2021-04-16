@@ -17,8 +17,12 @@
 }
 
 .phone-main__playing-section--button a {
-    z-index: 1;
     margin-left: 20px;
+}
+
+.phone-main__playing-section--button a:hover {
+    transition: color 0.7s linear;
+    color: tomato;
 }
 
 .phone-main__playing-section--background {
