@@ -8,6 +8,8 @@
 
 /* Screens */
 @import url('screens/button-section.css');
+@import url('screens/time-section.css');
+@import url('screens/playing-button.css');
 
 @font-face {
     font-family: 'TmoneyRoundWindExtraBold';

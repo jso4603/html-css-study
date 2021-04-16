@@ -7,7 +7,8 @@
 }
 
 .phone-screen {
-    background-color: white;
+    z-index: 0;
+    background-color: rgb(252, 212, 218);
     width: 350px;
     height: 700px;
     margin: 50px;

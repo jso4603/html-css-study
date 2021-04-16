@@ -1,0 +1,42 @@
+.playing-button__section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.playing-button__section div:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0px 0px 20px rgb(182, 179, 179);
+    color: white;
+    border-radius: 50%;
+    margin: 0px 30px;
+    will-change: transform;
+}
+
+.playing-button__section div:nth-child(3):hover {
+    animation: popup 1s linear;
+}
+
+.playing-button__section a:nth-child(2),
+.playing-button__section a:nth-child(5) {
+    margin-left: 40px;
+}
+
+.playing-button__section a:first-child,
+.playing-button__section a:last-child {
+    opacity: 0.3;
+}
+
+.playing-button__section a:first-child:hover,
+.playing-button__section a:last-child:hover {
+    opacity: 1;
+    transition: opacity 0.5s linear;
+}
