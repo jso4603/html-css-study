@@ -5,6 +5,7 @@
 @import url('components/main-info.css');
 @import url('components/playlist-section.css');
 @import url('components/playing-section.css');
+@import url('components/recommendation.css');
 
 /* Screens */
 @import url('screens/button-section.css');
