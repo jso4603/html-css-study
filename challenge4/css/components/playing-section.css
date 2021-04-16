@@ -1,0 +1,37 @@
+.phone-main__playing-section {
+    position: relative;
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+    padding: 0px 25px;
+    border-radius: 30px;
+}
+
+.phone-main__playing-section--title span,
+.phone-main__playing-section--button {
+    z-index: 1;
+    color: white;
+}
+
+.phone-main__playing-section--button a {
+    margin-left: 20px;
+}
+
+.phone-main__playing-section--button a:hover {
+    transition: color 0.5s linear;
+    color: tomato;
+}
+
+.phone-main__playing-section--background {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 30px;
+    z-index: 0;
+    box-shadow: 0px 5px 10px gray;
+}
