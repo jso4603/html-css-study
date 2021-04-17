@@ -21,7 +21,9 @@
     will-change: transform;
 }
 
-.playing-button__section div:nth-child(3):hover {
+.playing-button__section div:nth-child(3):hover,
+.playing-button__section a:nth-child(2):hover,
+.playing-button__section a:nth-child(4):hover {
     animation: popup 1s linear;
 }
 
